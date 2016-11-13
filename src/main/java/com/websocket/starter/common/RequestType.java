@@ -1,5 +1,10 @@
 package com.websocket.starter.common;
 
+/**
+ * Websocket request type
+ * @author manjunathshetty
+ *
+ */
 public enum RequestType {
 	REGISTRATION_REQUEST;
 

@@ -2,6 +2,11 @@ package com.websocket.starter.response;
 
 import com.websocket.starter.common.RequestType;
 
+/**
+ * Abstract response
+ * @author manjunathshetty
+ *
+ */
 public class AbstractResponse {
 
 	private RequestType type;

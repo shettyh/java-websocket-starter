@@ -2,6 +2,11 @@ package com.websocket.starter.request;
 
 import com.websocket.starter.common.RequestType;
 
+/**
+ * Abstract Web Socket Request
+ * @author manjunathshetty
+ *
+ */
 public class AbstractRequest {
 
 	private RequestType type;

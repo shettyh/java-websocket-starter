@@ -9,6 +9,12 @@ import com.google.gson.JsonObject;
 import com.websocket.starter.request.AbstractRequest;
 import com.websocket.starter.request.RegistrationRequest;
 
+/**
+ * 
+ * Websocket request decoder
+ * @author manjunathshetty
+ *
+ */
 public class RequestDecoder implements Decoder.Text<AbstractRequest> {
 
 	private AbstractRequest request;

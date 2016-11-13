@@ -13,6 +13,11 @@ import com.websocket.starter.common.ResponseEncoder;
 import com.websocket.starter.request.AbstractRequest;
 import com.websocket.starter.request.RegistrationRequest;
 
+/**
+ * Websocket endpoint
+ * @author manjunathshetty
+ *
+ */
 @ServerEndpoint(value = "/websocket", decoders = { RequestDecoder.class }, encoders = { ResponseEncoder.class })
 public class EndPoint {
 

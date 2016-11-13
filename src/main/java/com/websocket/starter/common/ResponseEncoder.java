@@ -7,6 +7,12 @@ import javax.websocket.EndpointConfig;
 import com.google.gson.Gson;
 import com.websocket.starter.response.AbstractResponse;
 
+/**
+ * 
+ * Websocket request encoder
+ * @author manjunathshetty
+ *
+ */
 public class ResponseEncoder implements Encoder.Text<AbstractResponse> {
 
 	@Override
