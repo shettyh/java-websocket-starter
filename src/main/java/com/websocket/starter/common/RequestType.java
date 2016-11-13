@@ -6,7 +6,7 @@ package com.websocket.starter.common;
  *
  */
 public enum RequestType {
-	REGISTRATION_REQUEST;
+	REGISTRATION_REQUEST,BROADCAST_REQUEST;
 
 	public static RequestType fromString(String type) {
 		return RequestType.valueOf(type);

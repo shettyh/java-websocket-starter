@@ -4,10 +4,11 @@ import com.websocket.starter.common.RequestType;
 
 /**
  * Abstract response
+ * 
  * @author manjunathshetty
  *
  */
-public class AbstractResponse {
+public abstract class AbstractResponse {
 
 	private RequestType type;
 
@@ -22,5 +23,8 @@ public class AbstractResponse {
 	public void setType(RequestType type) {
 		this.type = type;
 	}
+
+	@Override
+	abstract public String toString();
 
 }

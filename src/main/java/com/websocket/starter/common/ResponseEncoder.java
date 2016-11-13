@@ -10,6 +10,7 @@ import com.websocket.starter.response.AbstractResponse;
 /**
  * 
  * Websocket request encoder
+ * 
  * @author manjunathshetty
  *
  */
@@ -27,8 +28,7 @@ public class ResponseEncoder implements Encoder.Text<AbstractResponse> {
 
 	@Override
 	public String encode(AbstractResponse response) throws EncodeException {
-		Gson gson = new Gson();
-		return gson.toJson(response);
+		return response.toString();
 	}
 
 }

@@ -1,8 +1,6 @@
 package com.websocket.starter.common;
 
 import java.util.HashSet;
-import java.util.concurrent.ConcurrentHashMap;
-
 import javax.websocket.Session;
 
 /**
