@@ -7,11 +7,13 @@ import javax.websocket.EndpointConfig;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.websocket.starter.request.AbstractRequest;
+import com.websocket.starter.request.BroadcastRequest;
 import com.websocket.starter.request.RegistrationRequest;
 
 /**
  * 
  * Websocket request decoder
+ * 
  * @author manjunathshetty
  *
  */
@@ -44,6 +46,9 @@ public class RequestDecoder implements Decoder.Text<AbstractRequest> {
 		switch (requestType) {
 		case REGISTRATION_REQUEST:
 			request = new RegistrationRequest();
+			break;
+		case BROADCAST_REQUEST:
+			request = new BroadcastRequest();
 			break;
 		default:
 			request = null;
